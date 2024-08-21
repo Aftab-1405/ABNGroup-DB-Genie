@@ -1,0 +1,44 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+venv/
+
+# Flask
+instance/
+.webassets-cache
+.flask_session/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Editor
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*.local
+*.pid
+
+# Misc
+.vscode/
+.env
+
+static/firebase-adminsdk.json

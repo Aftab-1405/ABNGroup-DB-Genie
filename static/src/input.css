@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custome CSS styles that are not possible with tailwindCSS */
+
+/* Custom styles for scrollbar */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
