@@ -34,9 +34,9 @@ def login_required(f):
 # MySQL configuration
 db_config = {
     'user': 'root',
-    'password': 'MySQLAftab@1405',
+    'password': 'Password@1405',
     'host': 'localhost',
-    'port': 3306,
+    'port': 0000,
     'database': None
 }
 
@@ -45,7 +45,7 @@ thread_local = threading.local()
 executor = ThreadPoolExecutor(max_workers=32)  # Configure thread pool executor
 
 # Configure the Gemini API
-GEMINI_API_KEY = 'AIzaSyAh7fhqhzaruzrG04rZicQ6P848PJT_4zQ'
+GEMINI_API_KEY = 'API_KEY-GOES_HERE'
 genai.configure(api_key=GEMINI_API_KEY)
 
 model = genai.GenerativeModel(
