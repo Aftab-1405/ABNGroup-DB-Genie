@@ -12,12 +12,12 @@ Database management and querying have long been complex and time-consuming tasks
 
 In today's data-driven world, accessing and analyzing data is critical to success. However, the complexities of SQL and database management create barriers for teams to effectively work with their data, leading to inefficiencies and slower decision-making.
 
-DB-Genie breaks down these barriers by providing a simple, chat-based interface for interacting with databases. Aftab Nadaf believes that querying data should be easy for everyone, regardless of their technical background.
+DB-Genie breaks down these barriers by providing a simple, chat-based interface for interacting with databases. I believes that querying data should be easy for everyone, regardless of their technical background.
 
 ## 🧞 How DB-Genie Works
 
 1. 🔌 Connect to a MySQL Database: Users can easily connect to their MySQL databases through DB-Genie's control panel.
-2. 💬 Chat-Based Query Interface: The conversational UI allows users to type SQL queries or natural language queries, which DB-Genie interprets and executes.
+2. 💬 Chat-Based Query Interface: The conversational UI allows users to type SQL queries natural language, which DB-Genie interprets and generate SQL codes for you. It also has capabilities of understanding all the schema of the database on which user working at real time. It also includes real time notification system which keeps AI aware of what changes are happening on selecte database, which can enhance it's capabilities even more.
 3. 📊 View Results: Once the query is executed, the results are returned in a clear and structured table format.
 4. 🧠 AI Assistance: AI-powered suggestions help users write more efficient and accurate SQL queries.
 
@@ -30,26 +30,22 @@ DB-Genie is built using a modern and efficient tech stack:
 - 🌐 Frontend: HTML5, TailwindCSS, JavaScript
 - 🐍 Backend: Python with Flask
 - 🗄️ Database: MySQL (current support)
-- 🧠 AI Integration: Language model for query assistance
+- 🧠 AI Integration: Language model (Gemini) for query assistance
 - 📝 Code Editor: CodeMirror for syntax highlighting
 
 ## 🚀 Roadmap and Future Goals
 
 - 🔄 Multi-Database Support: Expanding compatibility to include PostgreSQL, SQLite, MongoDB, and more.
-- 🧠 AI Enhancements: Improving AI capabilities for handling complex queries and providing data visualizations.
+- 🧠 AI Enhancements: Improving AI capabilities for handling complex queries and providing data visualizations. I will be trying to fine tune it specifically on relational database information.
 - 👥 User Roles and Permissions: Introducing user roles to control database access and manage permissions.
 - 👥 Real-Time Collaboration: Implementing features for multiple users to collaborate on queries in real-time.
 - 📱 Mobile Optimization: Making DB-Genie mobile-friendly for on-the-go database access.
 
 ## 🤝 Join the DB-Genie Community
 
-Aftab Nadaf invites you to join him on this exciting journey of simplifying database interaction. Whether you're a developer, a database administrator, or someone passionate about building user-friendly tools, he would love to collaborate with you!
+I invite you to join me on this exciting journey of simplifying database interaction. Whether you're a developer, a database administrator, or someone passionate about building user-friendly tools, he would love to collaborate with you!
 
-- 📧 Contact Aftab Nadaf at [Your Email]
+- 📧 Contact me at [an713374@gmail.com]
 - 🐙 Contribute on GitHub by opening issues or pull requests
-
-## 🙌 Acknowledgements
-
-Aftab Nadaf extends his heartfelt gratitude to everyone who has supported DB-Genie so far. Your encouragement and feedback have been invaluable in shaping this project. If you'd like to get involved, Aftab Nadaf welcomes you with open arms! 🎉
 
 Let's revolutionize database interaction together with DB-Genie! 🧞‍♂️✨
